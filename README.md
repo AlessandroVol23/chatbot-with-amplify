@@ -26,3 +26,11 @@ Install requirements and start the web server with `yarn` (or npm).
 yarn install
 yarn start
 ```
+
+## Delete
+
+Remember deleting removing the resources if you do not need it.
+
+```bash
+amplify delete
+```
