@@ -1,0 +1,19 @@
+{
+    "identityPoolName": "chatbotwithamplify_identitypool_4d1b7e22",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito4d1b7e22",
+    "sharedId": "4d1b7e22",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}
